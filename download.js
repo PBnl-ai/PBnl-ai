@@ -1,5 +1,5 @@
-import { chromium, devices } from "playwright";
-import dotenv from "dotenv";
+const { chromium, devices } = require("playwright");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
